@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "py-treap-implicit"
+version = "1.0.0"
+description = "Implicit treap for sequence operations with lazy propagation"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Mahmoud ElNemer", email = "sultanelnemer@gmail.com"}]
+keywords = ["python", "treap", "implicit", "data-structures", "algorithms"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ElNeMeR70/py-treap-implicit"
+Repository = "https://github.com/ElNeMeR70/py-treap-implicit"
